@@ -104,7 +104,7 @@ int main() {
 }
 */
 
-
+/*
 #include<math.h>
 #define M_PI 3.14159265358979323846
 int main() {
@@ -119,3 +119,37 @@ int main() {
     
     return 0;
 }
+*/
+
+
+/*
+#define USD_RATE 0.55
+#define EUR_RATE 0.51
+#define GBP_RATE 0.44
+
+void convert_currency(double leva) {
+    double dollars = leva * USD_RATE;
+    double euros = leva * EUR_RATE;
+    double pounds = leva * GBP_RATE;
+
+    printf("%.2f BGN is equivalent to:\n", leva);
+    printf("%.2f USD\n", dollars);
+    printf("%.2f EUR\n", euros);
+    printf("%.2f GBP\n", pounds);
+}
+
+int main() {
+    double leva;
+    printf("Enter amount in Bulgarian Lev (BGN): ");
+    scanf("%lf", &leva);
+
+    if (leva < 0) {
+        printf("Invalid input! Amount must be non-negative.\n");
+        return 1;
+    }
+    
+    convert_currency(leva);
+    return 0;
+}
+
+*/
