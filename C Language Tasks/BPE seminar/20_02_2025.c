@@ -153,3 +153,34 @@ int main() {
 }
 
 */
+
+/*
+double calculate_trapezoid_area(double base1, double base2, double height) {
+    return 0.5 * (base1 + base2) * height;
+}
+
+int main() {
+    double base1, base2, height, area;
+
+    printf("Enter the length of the first base: ");
+    scanf("%lf", &base1);
+    
+    printf("Enter the length of the second base: ");
+    scanf("%lf", &base2);
+    
+    printf("Enter the height of the trapezoid: ");
+    scanf("%lf", &height);
+    
+    if (base1 <= 0 || base2 <= 0 || height <= 0) {
+        printf("Invalid input! All values must be positive.\n");
+        return 1;
+    }
+    
+    area = calculate_trapezoid_area(base1, base2, height);
+    
+    printf("The area of the trapezoid is: %.2f\n", area);
+    
+    return 0;
+}
+
+*/
