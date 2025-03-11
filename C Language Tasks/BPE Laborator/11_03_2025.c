@@ -3,6 +3,8 @@
 #define PI 3.141592653589793
 #include <stdbool.h>
 
+
+//1
 /*
 int main() {
     double number, sum = 0;
@@ -45,7 +47,7 @@ int main() {
 }
 */
 
-
+//2
 /*
 int main() {
     int number, count = 0;
@@ -71,7 +73,7 @@ int main() {
 }
 */
 
-
+//3
 /*
 int main() {
     unsigned long long binary;
@@ -116,6 +118,7 @@ int main() {
 }
 */
 
+//4
 /*
 void square() {
     int side;
@@ -175,6 +178,8 @@ int main() {
 }
 */
 
+
+//5
 /*
 int main() {
     int a, b, c, d, e, temp;
@@ -202,6 +207,8 @@ int main() {
 }
 */
 
+
+//6
 /*
 int fibonacci(int n) {
     if (n <= 0) return 0;
@@ -229,6 +236,8 @@ int main() {
 }
 */
 
+
+//7
 /*
 int main() {
     int a, b, c, d, e, newNumber;
@@ -254,6 +263,8 @@ int main() {
 }
 */
 
+
+//8
 /*
 int main() {
     int numbers[5];
@@ -294,6 +305,8 @@ int main() {
 }
 */
 
+
+//9
 /*
 bool isPrime(int num) {
     if (num <= 1) {
@@ -333,7 +346,7 @@ int main() {
 }
 */
 
-
+//10
 /*
 void printNumbers(int num1, int num2, int num3, int num4) {
     printf("Entered numbers: %d %d %d %d\n", num1, num2, num3, num4);
