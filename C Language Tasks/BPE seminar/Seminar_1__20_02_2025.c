@@ -356,25 +356,18 @@ int main() {
     printf("Enter the width and length of the bench (M O meters): ");
     scanf("%lf %lf", &M, &O);
 
-    // Calculate total area of the site
     double site_area = N * N;
     
-    // Calculate the area occupied by the bench
     double bench_area = M * O;
     
-    // Calculate the area to be tiled
     double area_to_tile = site_area - bench_area;
     
-    // Calculate the area of one tile
     double tile_area = W * L;
     
-    // Calculate the number of tiles needed
     int tiles_needed = (int)ceil(area_to_tile / tile_area);
     
-    // Calculate the time required to place the tiles (each tile takes 0.2 minutes)
     double time_required = tiles_needed * 0.2;
     
-    // Print results
     printf("Number of tiles needed: %d\n", tiles_needed);
     printf("Time required to place all tiles: %.2f minutes\n", time_required);
 
@@ -396,22 +389,16 @@ int main() {
     printf("Enter the exchange rate (dollar to leva): ");
     scanf("%lf", &exchange_rate);
 
-    // Calculate monthly salary
     double monthly_salary = N * M;
     
-    // Calculate yearly salary including bonus
     double yearly_salary = (monthly_salary * 12) + (2.5 * monthly_salary);
     
-    // Deduct taxes (25%)
     double net_yearly_salary = yearly_salary * 0.75;
     
-    // Convert to leva
     double net_yearly_salary_leva = net_yearly_salary * exchange_rate;
     
-    // Calculate average net profit per day
     double average_daily_profit = net_yearly_salary_leva / 365.0;
     
-    // Print results
     printf("Average daily net profit in leva: %.2f\n", average_daily_profit);
 
     return 0;
