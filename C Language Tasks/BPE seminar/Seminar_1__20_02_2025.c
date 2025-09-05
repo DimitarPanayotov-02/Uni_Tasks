@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //1
-/*
+
 int main() {
     char *words[] = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"};
     
@@ -11,7 +11,7 @@ int main() {
     
     return 0;
 }
-*/
+
 
 
 //2

@@ -1,20 +1,21 @@
 #include<stdio.h>
-/*int main(){
+/*
+int main(){
     for (int i = 0; i<256; i++)
     {
         printf("%i %c\n",i,i);
     } 
 }
 */
-
-/*int main(){
+/*
+int main(){
     int a;
     int b;
     scanf("%d", &a);
     scanf("%d", &b);
     printf("%d", a*b);
 }
-    */
+*/
 
 /*int main()
 {
