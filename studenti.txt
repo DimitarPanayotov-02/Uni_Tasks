@@ -1,0 +1,24 @@
+Kurs: Matematika
+Student 1: Petar
+Ocenki: 5.0 5.0 5.0 
+Student 2: IVan
+Ocenki: 4.0 4.0 4.0 
+Student 3: Oskar
+Ocenki: 3.0 3.0 3.0 
+Student 4: Jana
+Ocenki: 6.0 6.0 6.0 
+Student 5: Tosho
+Ocenki: 4.0 4.0 4.0 
+
+Kurs: Informatika
+Student 1: Gana
+Ocenki: 6.0 6.0 6.0 
+Student 2: Fox
+Ocenki: 5.0 5.0 5.0 
+Student 3: gaga
+Ocenki: 3.0 3.0 3.0 
+Student 4: Tasha
+Ocenki: 5.0 5.0 5.0 
+Student 5: Gesha
+Ocenki: 2.0 2.0 2.0 
+
